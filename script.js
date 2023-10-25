@@ -14,3 +14,11 @@ const circle = {
   },
 };
 circle.draw();
+
+const circle1 = new circle(10);
+for (let key in cirle) {
+  console.log(key, circle[key]);
+}
+const keys = object.keys(circle);
+console.log(keys);
+if ("radius" in circle) console.log("circle has a radius.");
