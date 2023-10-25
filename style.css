@@ -49,3 +49,16 @@ body {
   cursor: pointer;
   font-size: 20px;
 }
+
+#Search {
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#Search:hover {
+  background-color: grey;
+}
